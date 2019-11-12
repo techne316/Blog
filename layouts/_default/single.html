@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{ partial "head.html" . }}
+</head>
+<body>
+
+	{{ partial "header.html" . }}
+	{{ if .Params.mathjax}}{{ partial "mathjax_support.html" . }}{{ end }}
+
+	<div class="post">
+	  <!-- Wrapper Start -->
+	  <section class="section" style="border: 1px dotted #ddd;">
+	    <div class="container">
+	      <div class="row">
+				{{ partial "sidebar.html" . }}
+	        <div class = "col-md-9">
+	       	  <div class="block">
+							{{ with .Params.image }}<img src="{{ . | absURL }}" width="100%" alt="post-image"> {{ end }}
+	            <h1>{{ .Params.title }}</h1>
+	            <h2>
+	            <div class="post-info-wrapper">
+	              <p class="italic">By <span class="bold">{{ .Params.author }}</span> </p>
+	            </div>
+	        	</h2>
+	            <hr />
+	            <p>{{ .Content }}</p>
+	          </div>
+	          <div></div>
+	        </div><!-- .col-md-7 close -->
+	      </div>
+	    </div>
+	  </section>
+	</div>
+	<p class="center-text" style="padding: 30px;">
+	  <a class="btn btn-main" href="{{ $.Site.BaseURL }}/blog">Back to blog</a>
+	</p>
+
+	{{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}
+		{{ partial "call-to-action.html" . }}
+	{{ end }}
+
+	{{ partial "footer.html" . }}
+</body>
+</html>

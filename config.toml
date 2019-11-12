@@ -1,0 +1,271 @@
+baseURL = "http://techne316.github.io"
+languageCode = "en-us"
+title = "Techne316 homepage"
+theme = "airspace-hugo"
+
+
+# The site's parameters
+
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
+series = "series"
+
+
+[params]
+
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  description = "Airspace Hugo theme"
+  author = "Somrat"
+  disableLanguageSwitchingButton = true
+  
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+# Multilangual : KOR / ENG
+[Languages]
+    ############ 1 - KOREAN SITE
+  
+
+  [Languages.KOR]
+  languageName = "KOR"
+  weight = 1
+  languageCode = "ko-us"
+  title = "KOREAN Techne homepage"
+  dateFormat = "2 January 2006"
+  home = "홈"
+
+    
+  [Languages.KOR.menu]
+
+    [[Languages.KOR.menu.header]]
+      weight = 2
+      name = "프로젝트"
+      hasChildren = true
+          [[Languages.KOR.menu.header]]
+            parent = "프로젝트"
+            name = "Microarray"
+            url = "/kor/microarray"
+
+           [[Languages.KOR.menu.header]]
+            parent = "프로젝트"
+            name = "RNAseq"
+            url = "/kor/rnaseq"  
+
+    [[Languages.KOR.menu.header]]
+      weight = 3
+      name = "블로그"
+      url = "/kor/blog"
+    [[Languages.KOR.menu.header]]
+      weight = 4
+      name = "서비스"
+      url = "/kor/service"
+    [[Languages.KOR.menu.header]]
+      weight = 5
+      name = "연락처"
+      url = "/kor/contact"
+
+
+    [[Languages.KOR.menu.footer]]
+      weight = 1
+      name = "About us"
+      url = "#"
+    [[Languages.KOR.menu.footer]]
+      weight = 2
+      name = "Contact us"
+      url = "#"
+    [[Languages.KOR.menu.footer]]
+      weight = 3
+      name = "How it works"
+      url = "#"
+    [[Languages.KOR.menu.footer]]
+      weight = 4
+      name = "Blog"
+      url = "#"
+    [[Languages.KOR.menu.footer]]
+      weight = 5
+      name = "Terms"
+      url = "#"
+
+
+  [Languages.KOR.params]
+
+    [Languages.KOR.params.slider]
+      enable = true
+      title = "Dream as you wish & technically and artiscally"
+      subtitle = "원하는대로 사용하세요.<br/>기술적으로, 아름답게 꾸며드립니다."
+      bgImage = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"
+      bgImageAlt = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"
+      btnText = "Discover Our Projects"
+      url = "#"
+
+    [Languages.KOR.params.wrapper]
+      enable = true
+      image = "img/kobu-agency-7okkFhxrxNw-unsplash.jpg"
+      title = "About Us"
+      italic = "FRANCAIS Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+      paragraph = "Techne는 연구에 가장 많이 사용되고 있는 R program을 사용하여 연구자분들의 연구에 편리를 제공할 뿐만 아니라 논문에 바로 사용할 수 있는 해상도 높은 그림 결과를 제공합니다. 획일화된 분석 방법이 아닌 개개인 연구 설계에 알맞는 분석 방법을 찾아 적용해보세요. Blog를 참고하시면 연구에 필요한 분석 방법 뿐 아니라 해석하는데 도움이 되는 여러 정보들을 올려두었습니다.연구에 도움이 될 수 있도록 최선을 다하는 techne가 되도록 하겠습니다. "
+
+    [Languages.KOR.params.blog]
+      enable = true
+      title = "FRANCAIS Get The Latest On What We're doing"
+      subtitle = "FRANCAIS Catch up with us, anytime and anywhere"
+
+    [Languages.KOR.params.feature]
+      enable = true
+      title = "we support your great idea"
+      bgImage = "img/pallie-smith-zp-0uEqBwpU-unsplash.jpg"
+      bgImageAlt = "img/allie-smith-zp-0uEqBwpU-unsplash.jpg"
+      content = "Techne에서는 앞으로 연구에 필요한 다양한 Bioinformatical한 분석 방법에 대하여 여러 연구자분들의 연구를 돕고자 합니다. 현재 지원 가능한 분석방법으로는 Microarray, RNAseq이 있으며 추후에 Chip-seq, Atac seq, Exom-seq, whole genome seq등 다양한 NGS 기술을 지원할 예정입니다. 여러 연구자분들과의 협업을 기대합니다. "
+      [Languages.KOR.params.feature.button]
+        caption = "View Works"
+        url = "#"
+
+    [Languages.KOR.params.call]
+      enable = true
+      title = "Dream as you wish"
+      paragraph = "FRANCAIS Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+      bgImage = "img/call-to-action-bg.jpg"
+      [Languages.KOR.params.call.button]
+        url = "#"
+        text = "tell us your story"
+
+    [Languages.KOR.params.contact]
+      enable = true
+      title = "FRANCAIS Drop us a note"
+      subtitle = "Don’t just take our word for it. Check out some of our latest work."
+      [Languages.KOR.params.contact.form]
+        name = "Your name"
+        email = "Your email"
+        subject = "Your subject"
+        message = "Your message"
+        button = "Send message"
+      [Languages.KOR.params.contact.box]
+        title = "Stop by for a visit"
+        address = "North Main Street, Brooklyn Australia"
+        email = "Email: contact@mail.com"
+        phone = "Phone: +88 01672 506 744"
+      [Languages.KOR.params.contact.gmaps]
+        title = "We Also Count in Google Maps"
+
+  ######## english language
+  [Languages.en]
+  languageName = "ENG"
+    weight = 2
+    languageCode = "en-us"
+    title = "Techne homepage"
+    dateFormat = "January 2, 2006"
+    home = "Home"
+
+    
+  [Languages.en.menu]
+
+    [[Languages.en.menu.header]]
+      weight = 2
+      name = "Project"
+      hasChildren = true
+          [[Languages.en.menu.header]]
+            parent = "Project"
+            name = "Microarray"
+            url = "/microarray"
+
+           [[Languages.en.menu.header]]
+            parent = "Project"
+            name = "RNAseq"
+            url = "/rnaseq"  
+
+    [[Languages.en.menu.header]]
+      weight = 3
+      name = "Blog"
+      url = "/blog"
+    [[Languages.en.menu.header]]
+      weight = 4
+      name = "Service"
+      url = "/service"
+    [[Languages.en.menu.header]]
+      weight = 5
+      name = "Contact"
+      url = "/contact"
+
+    [[Languages.en.menu.footer]]
+      weight = 1
+      name = "About us"
+      url = "#"
+    [[Languages.en.menu.footer]]
+      weight = 2
+      name = "Contact us"
+      url = "#"
+    [[Languages.en.menu.footer]]
+      weight = 3
+      name = "How it works"
+      url = "#"
+    [[Languages.en.menu.footer]]
+      weight = 4
+      name = "Blog"
+      url = "#"
+    [[Languages.en.menu.footer]]
+      weight = 5
+      name = "Terms"
+      url = "#"
+
+  [Languages.en.params.slider]
+    enable = true
+    title = "Dream as you wish & technically and artiscally"
+    subtitle = "We support your imagination"
+    bgImage = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"
+    bgImageAlt = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"
+    btnText = "Discover Our Projects"
+    url = "#"
+
+  [Languages.en.params.wrapper]
+    enable = true
+    image = "img/kobu-agency-7okkFhxrxNw-unsplash.jpg"
+    title = "About Us"
+    italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+    paragraph = "Techne uses the R program, which is used most often for research, to provide convenience for researchers and provides high resolution figures that can be used directly in papers. Find and apply the appropriate analytical method for your unique study design, not a uniform one. Please refer to the blog for the analysis method and the information that will help you to interpret it. We will do my best to help you with your research."
+
+  [Languages.en.params.blog]
+    enable = true
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
+
+  [Languages.en.params.feature]
+    enable = true
+    title = "We support your great idea"
+    bgImage = "img/allie-smith-zp-0uEqBwpU-unsplash.jpg"
+    bgImageAlt = "img/allie-smith-zp-0uEqBwpU-unsplash.jpg"
+    content = "Techne supports researchers with various bioinformatical analysis for future research. Analytical methods for microarrays and RNAseq are currently available. We will support various NGS technologies such as Chip-seq, Atac seq, Exom-seq, whole genome seq. We look forward to working with many researchers"
+    [Languages.en.params.feature.button]
+      caption = "View Works"
+      url = "#"
+
+  [Languages.en.params.call]
+    enable = true
+    bgImage = "img/call-to-action-bg.jpg"
+    title = "We design delightful digital experiences."
+    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+    [Languages.en.params.call.button]
+      url = "#"
+      text = "tell us your story"
+
+  [Languages.en.params.contact]
+    enable = true
+    title = "Drop us a note"
+    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    [Languages.en.params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [Languages.en.params.contact.box]
+      title = "Stop by for a visit"
+      address = "North Main Street, Brooklyn Australia"
+      email = "Email: contact@mail.com"
+      phone = "Phone: +88 01672 506 744"
+    [Languages.en.params.contact.gmaps]
+      title = "We Also Count in Google Maps"
+

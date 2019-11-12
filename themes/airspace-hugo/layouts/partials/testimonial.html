@@ -1,0 +1,56 @@
+
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ if $data.testimonial.enable }}
+<!-- Content Start -->
+<section id="testimonial">
+  <div class="container">
+    <!-- Header -->
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>{{ $data.testimonial.title }}</h2>
+        <p>{{ $data.testimonial.paragraph }}</p>
+      </div>
+    </div>
+
+    <div class="row">
+      {{ if $data.testimonial.number.enable }}
+      <div class="col-md-6">
+        <div class="block">
+          <!-- Content -->
+          <ul class="counter-box clearfix">
+            {{ range $data.testimonial.numbers }}
+            <li>
+              <div class="block">
+                <i class="{{ .icon }}"></i>
+                <h4 class="counter" data-count="{{ .counter }}">0</h4>
+                <span>{{ .text }}</span>
+              </div>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+      {{ if $data.testimonial.peoples.enable }}
+      <div class="col-md-6">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {{ range $data.testimonial.people }}
+            <div>
+                <img src="{{.quoteImg | absURL }}" alt="IMG">
+                <p>"{{ .text }}"</p>
+                <div class="user">
+                  <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="Pepole">
+                  <p><span>{{ .name }}</span> {{ .role }}</p>
+                </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
