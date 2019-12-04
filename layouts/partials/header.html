@@ -12,7 +12,7 @@
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
               </button>
               <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-                <img src="{{ .Site.BaseURL }}img/Tecne_logo.png" alt="{{ .Site.Title }} Logo">
+                <img src="{{ .Site.BaseURL }}img/Techne.png" alt="{{ .Site.Title }} Logo" style="width:210px;height:55px;">
               </a>
             </div>
 
@@ -43,16 +43,16 @@
                </div> 
           </div><!-- /.container-fluid -->
         </nav> 
-        <!-- header Nav END -->
-        <div class="col-md-5 col-md-7">
-        <div class="col-md-7"></div>            
-              <!-- Language List -->
-              <ul class="list-inline lang-list">
-                {{ range $.Site.Home.AllTranslations }}
-                <li class="list-inline-item"><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-                {{ end }}
-              </ul>
-        </div>
+               <div class ="row">
+                 <div class="col-md-10"></div>
+                 <div class="col-md-2">
+                  <ul class="list-inline lang-list">
+                  {{ range $.Site.Home.AllTranslations }}
+                  <li class="list-inline-item"><a href="{{ .Permalink }}" style="text-align:right;font-size:60%;">{{ .Language.LanguageName }}</a></li>
+                  {{ end }}
+                  </ul>
+                 </div> 
+
       </div>
     </div>
   </div>

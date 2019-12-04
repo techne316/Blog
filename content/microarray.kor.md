@@ -2,7 +2,7 @@
 title = "마이크로어레이"
 id = "microarray"
 description = "This is meta description for portfolio page"
-bgImage = "img/henry-co--odUkx8C2gg-unsplash.jpg"
+bgImage = "img/henry-co--odUkx8C2gg-unsplash.jpg.webp"
 bgImageAlt = "img/henry-co--odUkx8C2gg-unsplash.jpg"
 +++
 

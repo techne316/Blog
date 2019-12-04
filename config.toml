@@ -1,4 +1,4 @@
-baseURL = "http://techne316.github.io"
+baseURL = "https://techne316.github.io/"
 languageCode = "en-us"
 title = "Techne316 homepage"
 theme = "airspace-hugo"
@@ -97,14 +97,14 @@ series = "series"
       enable = true
       title = "Dream as you wish & technically and artiscally"
       subtitle = "원하는대로 사용하세요.<br/>기술적으로, 아름답게 꾸며드립니다."
-      bgImage = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"
+      bgImage = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg.webp"
       bgImageAlt = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"
       btnText = "Discover Our Projects"
       url = "#"
 
     [Languages.KOR.params.wrapper]
       enable = true
-      image = "img/kobu-agency-7okkFhxrxNw-unsplash.jpg"
+      image = "img/kobu-agency-7okkFhxrxNw-unsplash.jpg.webp"
       title = "About Us"
       italic = "FRANCAIS Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
       paragraph = "Techne는 연구에 가장 많이 사용되고 있는 R program을 사용하여 연구자분들의 연구에 편리를 제공할 뿐만 아니라 논문에 바로 사용할 수 있는 해상도 높은 그림 결과를 제공합니다. 획일화된 분석 방법이 아닌 개개인 연구 설계에 알맞는 분석 방법을 찾아 적용해보세요. Blog를 참고하시면 연구에 필요한 분석 방법 뿐 아니라 해석하는데 도움이 되는 여러 정보들을 올려두었습니다.연구에 도움이 될 수 있도록 최선을 다하는 techne가 되도록 하겠습니다. "
@@ -117,7 +117,7 @@ series = "series"
     [Languages.KOR.params.feature]
       enable = true
       title = "we support your great idea"
-      bgImage = "img/pallie-smith-zp-0uEqBwpU-unsplash.jpg"
+      bgImage = "img/pallie-smith-zp-0uEqBwpU-unsplash.jpg.webp"
       bgImageAlt = "img/allie-smith-zp-0uEqBwpU-unsplash.jpg"
       content = "Techne에서는 앞으로 연구에 필요한 다양한 Bioinformatical한 분석 방법에 대하여 여러 연구자분들의 연구를 돕고자 합니다. 현재 지원 가능한 분석방법으로는 Microarray, RNAseq이 있으며 추후에 Chip-seq, Atac seq, Exom-seq, whole genome seq등 다양한 NGS 기술을 지원할 예정입니다. 여러 연구자분들과의 협업을 기대합니다. "
       [Languages.KOR.params.feature.button]
@@ -215,7 +215,7 @@ series = "series"
     enable = true
     title = "Dream as you wish & technically and artiscally"
     subtitle = "We support your imagination"
-    bgImage = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"
+    bgImage = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg.webp"
     bgImageAlt = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"
     btnText = "Discover Our Projects"
     url = "#"
@@ -235,7 +235,7 @@ series = "series"
   [Languages.en.params.feature]
     enable = true
     title = "We support your great idea"
-    bgImage = "img/allie-smith-zp-0uEqBwpU-unsplash.jpg"
+    bgImage = "img/allie-smith-zp-0uEqBwpU-unsplash.jpg.webp"
     bgImageAlt = "img/allie-smith-zp-0uEqBwpU-unsplash.jpg"
     content = "Techne supports researchers with various bioinformatical analysis for future research. Analytical methods for microarrays and RNAseq are currently available. We will support various NGS technologies such as Chip-seq, Atac seq, Exom-seq, whole genome seq. We look forward to working with many researchers"
     [Languages.en.params.feature.button]

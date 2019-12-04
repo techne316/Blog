@@ -6,7 +6,7 @@
  * This css file includes styles added in the jekyll port of this theme.
  * To find the original style.css that ships with Airspace, read airspace.css
  *
- */
+ */1C2C56 F2A248
 
 .italic {
   font-style: italic;
@@ -35,12 +35,13 @@
 }
 
 .post-area a:hover {
-  color: #211808;
+  color: #100E32;
 }
 
 .lang-list {
   display: inline-block;
-  margin-top: 5px;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
 
 .lang-list a {
@@ -50,7 +51,7 @@
 }
 
 .lang-list :hover{
-    color:#DEC5A5;
+    color:#F2A248;
     font-weight: 600
   }
 
@@ -116,7 +117,7 @@ a:active {
 
 a:hover {
   font-weight: 1000;
-  color:#DEC5A5;  
+  color:#F2A248;  
 }
 
 .section {
@@ -142,7 +143,7 @@ a:hover {
 .btn-main,
 .btn-transparent,
 .btn-small {
-  background: #DEC5A5;
+  background: #F2D3AF;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -157,7 +158,7 @@ a:hover {
 .btn-main:hover,
 .btn-transparent:hover,
 .btn-small:hover {
-  background: #DEC5A5;
+  background: #F2A248;
   color: #fff;
 }
 .btn-solid-border {
@@ -166,8 +167,8 @@ a:hover {
   color: #fff;
 }
 .btn-solid-border:hover {
-  border: 1px solid #DEC5A5;
-  background: #DEC5A5;
+  border: 1px solid #F2A248;
+  background: #F2A248;
 }
 
 
@@ -254,14 +255,14 @@ font header .navbar-default .navbar-nav li a:hover {
 
   .navbar .dropdown-item:not(:last-child){margin-bottom:10px}
   .navbar .dropdown-item:hover{
-    color:#DEC5A5;
+    color:#F2A248;
     background:transparent;
     font-weight: 600
     }
 
 
   .navbar-default .navbar-nav .nav-link:hover{
-    color:#DEC5A5;
+    color:#F2A248;
     font-weight: 600
   }
 
@@ -305,15 +306,15 @@ font header .navbar-default .navbar-nav li a:hover {
 } 
 
 #slider .block {
-  color: #E3E3E4;
+  color: #F2F2F3;
 }
 
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 290;
+  font-weight: 250;
   font-size: 45px;
   line-height: 60px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   padding-bottom: 35px;
 }
 
@@ -322,7 +323,7 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 /*--
@@ -358,7 +359,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #intro .btn-view-works {
-  background: #DEC5A5;
+  background: #F2A248;
   color: #fff;
   padding: 10px 20px;
 }
