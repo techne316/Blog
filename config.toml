@@ -104,7 +104,7 @@ series = "series"
 
     [Languages.KOR.params.wrapper]
       enable = true
-      image = "img/kobu-agency-7okkFhxrxNw-unsplash.jpg.webp"
+      image = "img/kobu-agency-7okkFhxrxNw-unsplash.jpg"
       title = "About Us"
       italic = "FRANCAIS Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
       paragraph = "Techne는 연구에 가장 많이 사용되고 있는 R program을 사용하여 연구자분들의 연구에 편리를 제공할 뿐만 아니라 논문에 바로 사용할 수 있는 해상도 높은 그림 결과를 제공합니다. 획일화된 분석 방법이 아닌 개개인 연구 설계에 알맞는 분석 방법을 찾아 적용해보세요. Blog를 참고하시면 연구에 필요한 분석 방법 뿐 아니라 해석하는데 도움이 되는 여러 정보들을 올려두었습니다.연구에 도움이 될 수 있도록 최선을 다하는 techne가 되도록 하겠습니다. "
