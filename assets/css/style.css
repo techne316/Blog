@@ -288,7 +288,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 180px 0 220px 0;
+  padding: 160px 0 200px 0;
   position: relative;
 }
 /*--slider color and opacity--*/
@@ -301,21 +301,22 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #F1CF72, #6D531C);
-  opacity: 0.4;
+  background: linear-gradient(to left, #A2A5B7, #1C276D);
+  opacity: 0.45;
 } 
 
 #slider .block {
-  color: #F2F2F3;
+  color: #E6E6E6;
 }
 
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 250;
+  font-weight: 350;
+  opacity: 0.8;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 1px;
-  padding-bottom: 35px;
+  padding-bottom: 15px;
 }
 
 #slider .block p {

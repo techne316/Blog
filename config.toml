@@ -1,4 +1,4 @@
-baseURL = "https://techne316.github.io/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Techne316 homepage"
 theme = "airspace-hugo"
@@ -97,8 +97,8 @@ series = "series"
       enable = true
       title = "Dream as you wish & technically and artiscally"
       subtitle = "원하는대로 사용하세요.<br/>기술적으로, 아름답게 꾸며드립니다."
-      bgImage = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg.webp"
-      bgImageAlt = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"
+      bgImage = "img/pawel-czerwinski-g2Zf3hJyYAc-unsplash.jpg.webp"
+      bgImageAlt = "img/pawel-czerwinski-g2Zf3hJyYAc-unsplash.jpg"
       btnText = "Discover Our Projects"
       url = "#"
 
@@ -215,8 +215,8 @@ series = "series"
     enable = true
     title = "Dream as you wish & technically and artiscally"
     subtitle = "We support your imagination"
-    bgImage = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg.webp"
-    bgImageAlt = "img/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"
+    bgImage = "img/pawel-czerwinski-g2Zf3hJyYAc-unsplash.jpg.webp"
+    bgImageAlt = "img/pawel-czerwinski-g2Zf3hJyYAc-unsplash.jpg"
     btnText = "Discover Our Projects"
     url = "#"
 
