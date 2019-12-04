@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KOREAN Techne homepage</title>
+    <link>https://techne316.github.io/kor/</link>
+    <description>Recent content on KOREAN Techne homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-us</language>
+    
+	<atom:link href="https://techne316.github.io/kor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>affy</title>
+      <link>https://techne316.github.io/kor/blog/bioinformatics_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/blog/bioinformatics_2/</guid>
+      <description>The affy package designed to analyze and explore data of Affymetrix oligonucleotide arrary probe level data. Also, the package includes several plotting function to evaluate quality of array or probe level intensity.
+ probe oligonucleotides of 25 base pair length used to probe RNA targets. perfect match probes intended to match perfectly the target sequence. PM intensity value read from the perfect matches. mismatch the probes having one base mismatch with the target sequence intended to account for non-speciﬁc binding.</description>
+    </item>
+    
+    <item>
+      <title>affy::Background correction</title>
+      <link>https://techne316.github.io/kor/blog/bioinformatics_affy_bkg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/blog/bioinformatics_affy_bkg/</guid>
+      <description>Background correction ## setting library(affydata) data(Dilution)  Background correction은 microarray에서 signal을 읽는 과정에서 noise를 줄이고, 전체적인 background를 잡아주는 역할을 합니다.
+affy에서 다루고 있는 background correction 방법에는 rma, mas으로 총 2가지 방법과 background correction이 없는 “none”옵션을 제시하고 있습니다.
+
+2.1 none 어떠한 background correction없이 기존의 value 그대로를 이용하여 원본데이터를 사용하고자 할 때 선택할 수 있는 none 옵션입니다.
+bkg1 &amp;lt;- bg.correct.none(Dilution) %&amp;gt;% exprs()  Boxplot
+
+2.2 rma rma()방법은 robust multi-array average의 약자로 Irizarry et al.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://techne316.github.io/kor/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data manipulate</title>
+      <link>https://techne316.github.io/kor/blog/basic_r_1.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/blog/basic_r_1.4/</guid>
+      <description>1. Data import dataframe 구조로 된 데이터를 다루는데 필요한 package중에서 제일 많이 사용하는 dplyr에 대해 설명해보려고 합니다. 기본적으로 dataframe을 다룰 수 있는 경우 dplyr과 tidyr 사용하면 더 간편하게 dataframe을 사용할 수 있습니다. 다만, 데이터를 index하거나 이름을 지정하는것, 불러오는 등 기본적인 방법을 다루지는 않고 package의 함수를 다루므로 기초가 없다면 약간 어려울 수도 있습니다.
+데이터를 직접 다루는 것이 좋기 때문에, 예시로 공공데이터 포털(https://www.data.go.kr) 에서 2017년 건강검진 정보 데이터를 사용하도록 하겠습니다.
+건강검진정보(2017)</description>
+    </item>
+    
+    <item>
+      <title>Data Structure</title>
+      <link>https://techne316.github.io/kor/blog/basic_r_1.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/blog/basic_r_1.2/</guid>
+      <description>1.2 데이터의 구조 
+데이터의 구조는 간단하게는 벡터vector, 리스트list, 배열array/행렬matrix, 데이터 프레임dataframe이 있습니다.
+ 벡터 vector : 가장 기본적인 데이터 구조로서 여러개의 수치값이 순차적으로 이뤄진 데이터 구조
+ 리스트 list : 벡터와 비슷한 형태로 여러 값이 순차적으로 이뤄져 있지만, 이 때 값이 값 하나를 가진 수치값일 수도 있고 여러개의 수치가 포함된 벡터 혹은 행렬 형태의 값을 받을 수도 있습니다.
+ 배열array : 행과 열로 이뤄진 데이터 구조로서 다차원구조를 표현가능합니다.</description>
+    </item>
+    
+    <item>
+      <title>Data structure II</title>
+      <link>https://techne316.github.io/kor/blog/basic_r_1.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/blog/basic_r_1.3/</guid>
+      <description>1) 배열array 벡터와는 달리 행row과 열column이 있으며 일반적으로 행*열과 같은 형식으로 데이터의 dimension을 표현할 수 있는 데이터 구조입니다. 배열과 행렬은 비슷한 듯 보이지만, 배열은 다차원의 구조(3D, 4D)를 다룰 수 있다는 점에서 행렬과는 차이가 있습니다. 다차원 구조는 간단하게는 [행,열,차원1]로 나타낼 수 있으며 같은 행과 열을 가지는 데이터를 여러개 표현하고자 할때 유용하게 쓰입니다. dim()를 이용하여 배열의 구조를 쉽게 구할 수 있습니다. 예로 들어, 최근 많이 사용하고 있는 이미지 파일을 수치화 한다고 할 때, array type의 데이터를 사용하여 가로 세로 32개의 픽셀로 이뤄진 데이터 형태 (32*32)의 흑백이미지 5장을 하나의 variable로 만들어 사용하는 것이 편리할 것입니다.</description>
+    </item>
+    
+    <item>
+      <title>Linear model</title>
+      <link>https://techne316.github.io/kor/blog/bioinformatics_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/blog/bioinformatics_1/</guid>
+      <description>Limma packages 2.1 Linear models for microarray data To find out differential expressed genes in microarray, limma used gene-wise linear models. Here, I will explian how to design the matrix for linear model.
+There are two different types of array.
+1. Two color array
+2. single channel array
+
+1) Two color array This type of array uses two different dyes during the cDNA process. The expression value of each gene is calculated by log-ratios of dye intensity.</description>
+    </item>
+    
+    <item>
+      <title>RNA시퀀싱</title>
+      <link>https://techne316.github.io/kor/rnaseq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/rnaseq/</guid>
+      <description>RNAseq contents Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam.</description>
+    </item>
+    
+    <item>
+      <title>Service</title>
+      <link>https://techne316.github.io/kor/service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>데이터의 성질</title>
+      <link>https://techne316.github.io/kor/blog/basic_r_1.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/blog/basic_r_1.1/</guid>
+      <description>1. 데이터의 기본적인 성질와 구조 1.1 데이터의 성질 일반적인 데이터의 성질은 크게 연속형(continuous)과 범주형(categorical) 데이터로 분류 할 수 있습니다. 이러한 데이터의 성질에 따라 앞으로 사용할 수 있는 통계의 분석방법, 혹은 시각화 할 때 사용할 수 있는 plot의 종류가 제한적일 수 있으므로 이를 유의하여 사용하는 것이 좋습니다. R에서 가장 기본적으로 데이터를 인식할때 수치형(numeric), 문자형(character), 논리형(logical) 여러 형식(mode)이 존재합니다.
+ 수치형(numeric)이란 수의 형태로서 숫자를 다루는 데이터형식
+ 문자형(character)이란 문자 그대로 &amp;ldquo;Mary&amp;rdquo;, &amp;ldquo;James&amp;rdquo;, &amp;ldquo;Red&amp;rdquo; 와 같이 문자를 받아드리는 형태로서 string을 인식하는 데이터 형식</description>
+    </item>
+    
+    <item>
+      <title>마이크로어레이</title>
+      <link>https://techne316.github.io/kor/microarray/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/microarray/</guid>
+      <description>contents _Korean
+France Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>프로젝트</title>
+      <link>https://techne316.github.io/kor/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/work/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Airspace Hugo theme">
+<meta name="author" content="Somrat">
+
+
+
+
+
+
+
+
+
+
+<title>데이터의 성질</title>
+
+<meta name="generator" content="Hugo 0.59.0" />
+
+
+    <link rel="stylesheet" href="https://techne316.github.io/css/owl.carousel.css" />
+    <link rel="stylesheet" href="https://techne316.github.io/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://techne316.github.io/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://techne316.github.io/css/ionicons.min.css" />
+    <link rel="stylesheet" href="https://techne316.github.io/css/animate.css" />
+    <link rel="stylesheet" href="https://techne316.github.io/css/syntax.css" />
+    <link rel="stylesheet" href="https://techne316.github.io/css/venobox.css" />
+<!-- Main Stylesheet -->
+
+<link rel="stylesheet" href="https://techne316.github.io/css/style.min.css" integrity="" media="screen">
+
+
+
+<script src="https://techne316.github.io/js/jquery-1.10.2.min.js"></script>
+<script src="https://techne316.github.io/js/bootstrap.min.js"></script>
+<script src="https://techne316.github.io/js/owl.carousel.min.js"></script>
+<script src="https://techne316.github.io/js/plugins.js"></script>
+<script src="https://techne316.github.io/js/venobox.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://techne316.github.io/js/main.min.js"></script>
+
+<!-- google analitycs -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+
+</head>
+<body>
+
+	
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              </button>
+              <a class="navbar-brand" href="https://techne316.github.io/">
+                <img src="https://techne316.github.io/img/Techne.png" alt="KOREAN Techne homepage Logo" style="width:210px;height:55px;">
+              </a>
+            </div>
+
+            
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="https://techne316.github.io/"> 홈 </a>
+                  </li>
+                  
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      프로젝트
+                    </a>
+                    <div class="dropdown-menu" >
+                      
+                      <a class="dropdown-item" href="/kor/microarray">Microarray</a>
+                      
+                      <a class="dropdown-item" href="/kor/rnaseq">RNAseq</a>
+                      
+                    </div>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/kor/blog">블로그</a>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/kor/service">서비스</a>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/kor/contact">연락처</a>
+                  </li>
+                  
+                  
+                </ul>
+               </div> 
+          </div>
+        </nav> 
+               <div class ="row">
+                 <div class="col-md-10"></div>
+                 <div class="col-md-2">
+                  <ul class="list-inline lang-list">
+                  
+                  <li class="list-inline-item"><a href="https://techne316.github.io/kor/" style="text-align:right;font-size:60%;">KOR</a></li>
+                  
+                  <li class="list-inline-item"><a href="https://techne316.github.io/" style="text-align:right;font-size:60%;">ENG</a></li>
+                  
+                  </ul>
+                 </div> 
+
+      </div>
+    </div>
+  </div>
+
+</header>
+	
+
+	<div class="post">
+	  
+	  <section class="section" style="border: 1px dotted #ddd;">
+	    <div class="container">
+	      <div class="row">
+				<!-- sidebar -->
+<aside class="col-md-3 order-1 order-lg-2">
+  <!-- categories -->
+    <div class = "row">
+      <div class = "col-md-1"></div>
+      <div class = "col-md-8">
+        <h4> LIST </h4>
+        <ul class="list-styled style-circle">
+          <li class="border-bottom border-color"><a href="/kor/categories/basic-r" class="text-color d-block pb-3 mt-3 text-decoration-none">Basic r</a></li>
+          <li class="border-bottom border-color"><a href="/kor/categories/bioinformatics" class="text-color d-block pb-3 mt-3 text-decoration-none">Bioinformatics</a></li>
+        </ul>
+       <br>
+
+      <!-- tags -->
+        <h4>TAGS</h4>
+        <ul class="list-inline tag-list">
+          <li class="list-inline-item"><a class="hover-ripple" href="/kor/tags/affy">Affy</a></li>
+          <li class="list-inline-item"><a class="hover-ripple" href="/kor/tags/basic">Basic</a></li>
+          <li class="list-inline-item"><a class="hover-ripple" href="/kor/tags/limma">Limma</a></li>
+          <li class="list-inline-item"><a class="hover-ripple" href="/kor/tags/r">R</a></li>
+        </ul>
+      </div> 
+    </div> 
+
+</aside>
+<!-- /sidebar -->
+
+	        <div class = "col-md-9">
+	       	  <div class="block">
+							<img src="https://techne316.github.io/img/blog/john-mark-arnold-WItJTJsW97w-unsplash1.jpg" width="100%" alt="post-image"> 
+	            <h1>데이터의 성질</h1>
+	            <h2>
+	            <div class="post-info-wrapper">
+	              <p class="italic">By <span class="bold">Techne316</span> </p>
+	            </div>
+	        	</h2>
+	            <hr />
+	            <p>
+
+<h1 id="1-데이터의-기본적인-성질와-구조">1. 데이터의 기본적인 성질와 구조</h1>
+
+<h2 id="1-1-데이터의-성질">1.1 데이터의 성질</h2>
+
+<p>일반적인 데이터의 성질은 크게 연속형(continuous)과 범주형(categorical) 데이터로 분류 할 수 있습니다. 이러한 데이터의 성질에 따라 앞으로 사용할 수 있는 통계의 분석방법, 혹은 시각화 할 때 사용할 수 있는 plot의 종류가 제한적일 수 있으므로 이를 유의하여 사용하는 것이 좋습니다. R에서 가장 기본적으로 데이터를 인식할때 수치형(numeric), 문자형(character), 논리형(logical) 여러 형식(mode)이 존재합니다.</p>
+
+<ul>
+<li><p>수치형(numeric)이란 수의 형태로서 숫자를 다루는 데이터형식</p></li>
+
+<li><p>문자형(character)이란 문자 그대로 &ldquo;Mary&rdquo;, &ldquo;James&rdquo;, &ldquo;Red&rdquo; 와 같이 문자를 받아드리는 형태로서 string을 인식하는 데이터 형식</p></li>
+
+<li><p>논리형(logical)이란 TRUE/FALSE로서 간단하게는 논리적으로 참인지 거짓인지를 저장하는 데이터 형식</p></li>
+</ul>
+
+<p>이러한 데이터의 형식은 R에서 새로운 데이터를 loading 할때 해당 데이터를 어떠한 형식(mode)으로 인식할지에 대한 문제입니다. 일반적으로 데이터를 불러올때 해당하는 데이터의 열에 형식은 자동으로 적절한 형식으로 불러오고 있지만, 데이터에 따라서 형식을 새로 지정해줘야 하는 경우도 있습니다. 이에 대해서는 데이터 불러오기를 다룰때 더 자세하게 다루도록 하겠습니다.</p>
+
+<p>여기서는 공공데이터포털(<a href="https://www.data.go.kr)에서">https://www.data.go.kr)에서</a> 제공하는 건강검진정보를 참고하여 각 데이터의 성질을 알아보고자 합니다. 건강검진 정보에는 많은 정보가 있지만 그 중에서 간단하게 대상자의 성별, 나이, 키, 허리둘레, 혈압, 음주여부에 해당하는 내용만을 살펴보고자 합니다.
+<table class="table table-striped" style="width: auto !important; ">
+ <thead>
+  <tr>
+   <th style="text-align:right;"> X </th>
+   <th style="text-align:right;"> SEX </th>
+   <th style="text-align:right;"> AGE_GROUP </th>
+   <th style="text-align:right;"> HEIGHT </th>
+   <th style="text-align:right;"> WEIGHT </th>
+   <th style="text-align:right;"> WAIST </th>
+   <th style="text-align:right;"> BP_HIGH </th>
+   <th style="text-align:right;"> SMK_STAT_TYPE_CD </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 13 </td>
+   <td style="text-align:right;"> 170 </td>
+   <td style="text-align:right;"> 65 </td>
+   <td style="text-align:right;"> 91.0 </td>
+   <td style="text-align:right;"> 158 </td>
+   <td style="text-align:right;"> 3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 150 </td>
+   <td style="text-align:right;"> 45 </td>
+   <td style="text-align:right;"> 73.4 </td>
+   <td style="text-align:right;"> 110 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 175 </td>
+   <td style="text-align:right;"> 75 </td>
+   <td style="text-align:right;"> 94.0 </td>
+   <td style="text-align:right;"> 130 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:right;"> 155 </td>
+   <td style="text-align:right;"> 55 </td>
+   <td style="text-align:right;"> 67.5 </td>
+   <td style="text-align:right;"> 138 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 175 </td>
+   <td style="text-align:right;"> 75 </td>
+   <td style="text-align:right;"> 93.0 </td>
+   <td style="text-align:right;"> 128 </td>
+   <td style="text-align:right;"> 3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 170 </td>
+   <td style="text-align:right;"> 70 </td>
+   <td style="text-align:right;"> 84.8 </td>
+   <td style="text-align:right;"> 115 </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 175 </td>
+   <td style="text-align:right;"> 110 </td>
+   <td style="text-align:right;"> 111.5 </td>
+   <td style="text-align:right;"> 130 </td>
+   <td style="text-align:right;"> 3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 170 </td>
+   <td style="text-align:right;"> 70 </td>
+   <td style="text-align:right;"> 78.0 </td>
+   <td style="text-align:right;"> 115 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 170 </td>
+   <td style="text-align:right;"> 80 </td>
+   <td style="text-align:right;"> 93.0 </td>
+   <td style="text-align:right;"> 115 </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 170 </td>
+   <td style="text-align:right;"> 70 </td>
+   <td style="text-align:right;"> 86.0 </td>
+   <td style="text-align:right;"> 122 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+</tbody>
+</table>
+<br />
+</p>
+
+<hr />
+
+<h3 id="1-연속형-데이터-continuous">1) 연속형 데이터 Continuous</h3>
+
+<p><br />
+연속형 데이터는 연속된 숫자들로 이뤄져있어 수량화가 가능한 데이터 형태입니다. 예시로 든 데이터에서는 키, 체중,허리둘레와 같이 각 값의 평균값이나 분산 등으로 계산이 가능한 데이터 형태를 의미합니다. 연속형 데이터는 일반적으로 <strong>수치형 형식</strong>으로 데이터를 인식합니다.</p>
+
+<p>수치형 형식에는 수학의 정의에 따라 정수(integer), 실수(numeric), 복소수(complex)로 나뉠수는 있지만, 데이터를 다루는데 있어서 크게 영향은 주지 않습니다.</p>
+
+<ul>
+<li>정수(integer) : 소수점이 없는 숫자로서 양수, 음수, 0을 포함함.<br /></li>
+<li>실수(numeric) : 소수점을 포함하는 숫자<br /></li>
+<li>복소수(complex) : i 가 들어가는 숫자 형태 (i^2 = -1)</li>
+</ul>
+
+<p>예시 데이터의 HEIGHT 값 인 170, 150, 175, 155, 175, 170, 175, 170, 170, 170 과 같이 연속되있는 숫자들로 이뤄져 있으며, 값들의 평균(<code>mean()</code>)과 표준편차(<code>sd()</code>)를 구하며 막대그래프 보다는 <strong>분포 그래프</strong>를 통해 데이터의 분포를 알아 볼 수 있습니다.</p>
+
+<p></p>
+
+<pre><code class="language-r"># dataset$HEIGHT의 평균값
+mean(dataset$HEIGHT)
+</code></pre>
+
+<pre><code>## [1] 168
+</code></pre>
+
+<pre><code class="language-r"># dataset$HEIGHT의 표준편차
+sd(dataset$HEIGHT)
+</code></pre>
+
+<pre><code>## [1] 8.563488
+</code></pre>
+
+<p></p>
+
+<pre><code class="language-r">plot(density(dataset$HEIGHT))
+</code></pre>
+
+<p><img src="/img/R_cookbook_1.1_files/figure-html/continuous2-1.png" alt="" /><!-- --></p>
+
+<p></p>
+
+<hr />
+
+<p></p>
+
+<h3 id="2-범주형-데이터-categorical">2) 범주형 데이터 Categorical</h3>
+
+<p><br />
+범주형 데이터는 앞서 설명한 연속형 데이터와 달리 평균값을 구하거나 분산등의 수량화를 할 수 없고 각 범주에 해당하는 갯수, 즉 빈도수만을 구할 수 있는 데이터 형식을 범주형데이터라고 합니다.
+<br />
+<table class="table table-striped" style="width: auto !important; ">
+ <thead>
+  <tr>
+   <th style="text-align:right;"> X </th>
+   <th style="text-align:right;"> SEX </th>
+   <th style="text-align:right;"> AGE_GROUP </th>
+   <th style="text-align:right;"> HEIGHT </th>
+   <th style="text-align:right;"> WEIGHT </th>
+   <th style="text-align:right;"> WAIST </th>
+   <th style="text-align:right;"> BP_HIGH </th>
+   <th style="text-align:right;"> SMK_STAT_TYPE_CD </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 13 </td>
+   <td style="text-align:right;"> 170 </td>
+   <td style="text-align:right;"> 65 </td>
+   <td style="text-align:right;"> 91.0 </td>
+   <td style="text-align:right;"> 158 </td>
+   <td style="text-align:right;"> 3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 150 </td>
+   <td style="text-align:right;"> 45 </td>
+   <td style="text-align:right;"> 73.4 </td>
+   <td style="text-align:right;"> 110 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 175 </td>
+   <td style="text-align:right;"> 75 </td>
+   <td style="text-align:right;"> 94.0 </td>
+   <td style="text-align:right;"> 130 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:right;"> 155 </td>
+   <td style="text-align:right;"> 55 </td>
+   <td style="text-align:right;"> 67.5 </td>
+   <td style="text-align:right;"> 138 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 175 </td>
+   <td style="text-align:right;"> 75 </td>
+   <td style="text-align:right;"> 93.0 </td>
+   <td style="text-align:right;"> 128 </td>
+   <td style="text-align:right;"> 3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 170 </td>
+   <td style="text-align:right;"> 70 </td>
+   <td style="text-align:right;"> 84.8 </td>
+   <td style="text-align:right;"> 115 </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 175 </td>
+   <td style="text-align:right;"> 110 </td>
+   <td style="text-align:right;"> 111.5 </td>
+   <td style="text-align:right;"> 130 </td>
+   <td style="text-align:right;"> 3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 170 </td>
+   <td style="text-align:right;"> 70 </td>
+   <td style="text-align:right;"> 78.0 </td>
+   <td style="text-align:right;"> 115 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 170 </td>
+   <td style="text-align:right;"> 80 </td>
+   <td style="text-align:right;"> 93.0 </td>
+   <td style="text-align:right;"> 115 </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 170 </td>
+   <td style="text-align:right;"> 70 </td>
+   <td style="text-align:right;"> 86.0 </td>
+   <td style="text-align:right;"> 122 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+</tbody>
+</table>
+<br />
+예시데이터에서 성별(SEX)을 나타내는 열에 대한 주석을 살펴보면, 1은 남자를 2는 여자를 나타내는 숫자입니다.<br />
+따라서 &lsquo;SEX&rsquo;열에서 비록 숫자로 나타내는 값으로 1, 2, 1, 2, 1, 1, 1, 2, 1, 1이 나왔다고 하더라도 이 값은 연속형 성질을 가지지 않고 범주형 성질을 가지고 있다는 것을 알 수 있습니다. 또한 여기에서 남성을 나타내는 숫자 1은 여성을 나타내는 숫자 2보다 더 적다고도, 많다고도 할 수 없이 그 값 만을 의미하고 있습니다. 단지, 예시 데이터에서의 남자(1)는 7명, 여자(2)는 3명으로 빈도를 알 수 있을 뿐, 이에 대한 어떠한 수량화, 즉 평균값이나 분산 등에 의미가 있지는 않습니다. 따라서 이에 대해서는 빈도를 간단하게 표현할 수 있는 <code>table()</code>를 통해 각 범주에 해당하는 갯수를 간단하게 계산해낼 수 있습니다.
+</p>
+
+<pre><code class="language-r">table(dataset$SEX)
+</code></pre>
+
+<pre><code>## 
+## 1 2 
+## 7 3
+</code></pre>
+
+<p><br />
+또 이에 대한 <strong>막대그래프</strong>는 <code>barplot()</code>을 통해 각 범주에 해당하는 갯수를 간단하게 표시할 수도 있습니다.
+</p>
+
+<pre><code class="language-r">barplot(table(dataset$SEX))
+</code></pre>
+
+<p><img src="/img/R_cookbook_1.1_files/figure-html/category2-1.png" alt="" /><!-- -->
+</p>
+
+<h4 id="요인형-factor">- 요인형 Factor</h4>
+
+<p>이와 같이 dataset$SEX에서는 성별에 대한 코드로 1,2를 사용함으로서 범주형 성질을 가지고 있는 데이터지만, 데이터를 처리하는 연산에서는 이러한 숫자를 범주형 데이터로 인식하기 보다는 연속형 데이터로 인식합니다. 따라서 1과 2와 같은 데이터를 연속형데이터에서 범주형 데이터로 인식할 수 있도록 그 속성을 <code>as.factor()</code>를 이용하여 바꿔주는 것이 중요합니다. 이는 이후에 혹시라도 모를 범주형 데이터의 연산을 막을 수 있어 매우 유용합니다.
+</p>
+
+<pre><code class="language-r"># 비교를 위해 original_data인 dataset
+str(dataset)
+</code></pre>
+
+<pre><code>## 'data.frame':	10 obs. of  8 variables:
+##  $ X               : int  1 2 3 4 5 6 7 8 9 10
+##  $ SEX             : int  1 2 1 2 1 1 1 2 1 1
+##  $ AGE_GROUP       : int  13 8 8 12 8 8 8 6 8 8
+##  $ HEIGHT          : int  170 150 175 155 175 170 175 170 170 170
+##  $ WEIGHT          : int  65 45 75 55 75 70 110 70 80 70
+##  $ WAIST           : num  91 73.4 94 67.5 93 ...
+##  $ BP_HIGH         : int  158 110 130 138 128 115 130 115 115 122
+##  $ SMK_STAT_TYPE_CD: int  3 1 1 1 3 2 3 1 2 1
+</code></pre>
+
+<pre><code class="language-r"># factor로 바뀐 dataset_fc
+dataset_fc &lt;- dataset
+dataset_fc$SEX &lt;- as.factor(dataset_fc$SEX)
+str(dataset_fc)
+</code></pre>
+
+<pre><code>## 'data.frame':	10 obs. of  8 variables:
+##  $ X               : int  1 2 3 4 5 6 7 8 9 10
+##  $ SEX             : Factor w/ 2 levels &quot;1&quot;,&quot;2&quot;: 1 2 1 2 1 1 1 2 1 1
+##  $ AGE_GROUP       : int  13 8 8 12 8 8 8 6 8 8
+##  $ HEIGHT          : int  170 150 175 155 175 170 175 170 170 170
+##  $ WEIGHT          : int  65 45 75 55 75 70 110 70 80 70
+##  $ WAIST           : num  91 73.4 94 67.5 93 ...
+##  $ BP_HIGH         : int  158 110 130 138 128 115 130 115 115 122
+##  $ SMK_STAT_TYPE_CD: int  3 1 1 1 3 2 3 1 2 1
+</code></pre>
+
+<p></p>
+
+<p>위의 형식을 보면 $SEX 열에 해당하는 형식이 기존의 number중에 하나였던 <code>int</code>에서 <code>Factor</code>로 바뀐 것을 확인 할 수있습니다.
+이렇게 바뀐 Factor형식의 값은 기존에 더하거나 평균을 내는 등의 값으로 계산이 불가능 합니다.</p>
+
+<pre><code class="language-r"># original dataset에서 성별(SEX)를 평균 냄
+mean(dataset$SEX)
+</code></pre>
+
+<pre><code>## [1] 1.3
+</code></pre>
+
+<pre><code class="language-r"># 성별을 factor 형식으로 바꾼 dataset_fc에서 성별을평균 냄
+mean(dataset_fc$SEX)
+</code></pre>
+
+<pre><code>## Warning in mean.default(dataset_fc$SEX): argument is not numeric or
+## logical: returning NA
+</code></pre>
+
+<pre><code>## [1] NA
+</code></pre>
+
+<p><br />
+따라서, 범주형 데이터를 다루는 요인형 변수 factor는 매우 중요하므로 이에 대한 데이터을 파악하기 위해 여러 함수들이 존재합니다.
+범주에 갯수를 한눈에 파악하는 <code>nlevels()</code> 혹은 범주의 이름을 파악할 수 있는 <code>levels()</code>을 통해 쉽게 범주형 데이터를 파악할 수 있습니다.<br />
+<br />
+예시 데이터에서 마지막 열인 흡연상태(SMK_STAT_TYPE_CD)에는 해당수검자의 흡연상태 여부, 피우지 않는다(1), 이전에 피웠으나 끊었다(2), 현재 피우고 있다(3)에 따라서 각 값을 숫자 형태로 1,2,3으로 코딩했다고 적혀있습니다. 이를 확인하기 위해서 <code>dataset$SMK_STAT_TYPE_CD</code>라는 열에는 범주형 데이터로 어떤 값이 몇개나 범주를 설정하고 있는지 확인하고자 한다면 <code>nlevel(dataset$SMK_STAT_TYPE_CD)</code>을 통해 범주가 3개가 있다는 것을 확인하고, 그 범주에 대한 이름은 <code>levels(dataset$SMK_STAT_TYPE_CD)</code>을 통해 그 코딩된 이름이 1, 2, 3라는 것도 손 쉽게 알아낼 수 있습니다.
+</p>
+
+<pre><code class="language-r">dataset$SMK_STAT_TYPE_CD &lt;- as.factor(dataset$SMK_STAT_TYPE_CD)
+nlevels(dataset$SMK_STAT_TYPE_CD)
+</code></pre>
+
+<pre><code>## [1] 3
+</code></pre>
+
+<pre><code class="language-r">levels(dataset$SMK_STAT_TYPE_CD)
+</code></pre>
+
+<pre><code>## [1] &quot;1&quot; &quot;2&quot; &quot;3&quot;
+</code></pre>
+
+<p><br />
+때때로, 연속형 성질의 값을 계산의 편리를 위해 범주형 성질의 데이터로 변환하는 경우가 있는데 예시데이터의 AGE_GROUP에 해당하는 값이 그 좋은 예시가 될 수 있습니다.
+<br />
+일반적으로 나이는 소수점으로 딱 떨어지지는 않지만 15살, 16살과 같이 1씩 차이가 나는 값들로만 이뤄져 있습니다.  하지만, AGE_GROUP에 대한 설명을 참고해보면 연령대코드(AGE_GROUP)는 20~84세까지 5세 단위로, 85세 이상은 하나의 단위로 그룹화하였다고 설명되어 있습니다. 0~4세까지는 1이라는 값으로, 5~9세는 2라는 값으로 그룹화를 하여 코딩한 것입니다.
+<br />
+따라서 이러한 경우에는 기존에 나이라는 데이터는 비록 연속형 성질을 갖고 있더라도 그룹화를 함으로서 범주형데이터로서 데이터를 다루게 됩니다.<br />
+</p>
+
+<h4 id="논리형-logical">- 논리형 logical</h4>
+
+<p>논리형(logical variables)은 TRUE와 FALSE로만 이뤄져 있는 데이터 형태로서 T, F로도 간단하게 사용할 수 있습니다. TRUE/FALSE와 같은 값으로 변수가 구성되는데, 일반적으로는 논리에 부합하는지 못하는지에 따라 나뉘는데 사용되며 이를 이용하여 특정 값만을 추출하는데 사용할 수 있습니다.
+<br />
+아래와 같이 3이 5보다 큰 값인지, 3이 1보다 큰 값인지를 구하는 논리의 참/거짓 유무를 TRUE, FALSE로 받아 출력합니다.</p>
+
+<pre><code class="language-r">3&gt;5 #FALSE
+</code></pre>
+
+<pre><code>## [1] FALSE
+</code></pre>
+
+<pre><code class="language-r">3&gt;1 #TRUE
+</code></pre>
+
+<pre><code>## [1] TRUE
+</code></pre>
+
+<p><br />
+예시 데이터에 존재하는 BP_HIGH는 수축기 혈압을 나타내는 용어로서 일반적으로 130mmHg 이상이면 고혈압으로 진단합니다. 따라서 예시 데이터에는 158, 110, 130, 138, 128, 115, 130, 115, 115, 122 의 값에서 130보다 높은 값을 TRUE, 그보다 낮으면 FALSE라고 논리형 값을 출력하고자 할 때, <code>dataset$BP_HIGH &gt; 130</code> 라는 연산을 통해 그 값이 TRUE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE 될 수 있음을 확인 할 수 있습니다.</p>
+
+<pre><code class="language-r">dataset$BP_HIGH &gt; 130
+</code></pre>
+
+<pre><code>##  [1]  TRUE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE
+</code></pre>
+</p>
+	          </div>
+	          <div></div>
+	        </div>
+	      </div>
+	    </div>
+	  </section>
+	</div>
+	<p class="center-text" style="padding: 30px;">
+	  <a class="btn btn-main" href="https://techne316.github.io//blog">Back to blog</a>
+	</p>
+
+	
+		
+<section id="call-to-action" style="background-image: url('https://techne316.github.io/img/call-to-action-bg.jpg');">
+  
+  <div class="container">
+    <div class="row">
+      <div class ="col-md-3"></div>
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Dream as you wish</h2>
+          <p>FRANCAIS Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
+          
+          <a class="btn btn-main btn-solid-border" href="#" >tell us your story</a>
+          
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+</section>
+
+	
+
+	
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            
+            <li><a href="#">About us</a></li>
+            
+            <li><a href="#">Contact us</a></li>
+            
+            <li><a href="#">How it works</a></li>
+            
+            <li><a href="#">Blog</a></li>
+            
+            <li><a href="#">Terms</a></li>
+            
+          </ul>
+        </div>
+        <p>Copyright &copy; Design &amp; Developed by Techne. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

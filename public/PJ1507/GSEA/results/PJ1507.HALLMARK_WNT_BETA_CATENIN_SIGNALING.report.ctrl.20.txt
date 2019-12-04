@@ -1,0 +1,43 @@
+#	GENE SYMBOL	DESC	LIST LOC	S2N	RES	CORE_ENRICHMENT
+1	WNT1	Wnt family member 1 [Source:HGNC Symbol;Acc:HGNC:12774]	24445	-0.26	0.0308	YES
+2	HEY2	hes related family bHLH transcription factor with YRPW motif 2 [Source:HGNC Symbol;Acc:HGNC:4881]	24013	-0.225	-0.0418	YES
+3	AXIN1	axin 1 [Source:HGNC Symbol;Acc:HGNC:903]	22918	-0.165	-0.076	YES
+4	NOTCH4	notch receptor 4 [Source:HGNC Symbol;Acc:HGNC:7884]	22320	-0.145	-0.109	YES
+5	CCND2	cyclin D2 [Source:HGNC Symbol;Acc:HGNC:1583]	22120	-0.139	-0.151	YES
+6	DKK1	dickkopf WNT signaling pathway inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:2891]	21742	-0.128	-0.184	YES
+7	JAG2	jagged canonical Notch ligand 2 [Source:HGNC Symbol;Acc:HGNC:6189]	20463	-0.0969	-0.177	NO
+8	MYC	MYC proto-oncogene, bHLH transcription factor [Source:HGNC Symbol;Acc:HGNC:7553]	19230	-0.0744	-0.162	NO
+9	JAG1	jagged canonical Notch ligand 1 [Source:HGNC Symbol;Acc:HGNC:6188]	18429	-0.0623	-0.156	NO
+10	DVL2	dishevelled segment polarity protein 2 [Source:HGNC Symbol;Acc:HGNC:3086]	18389	-0.0616	-0.176	NO
+11	HDAC5	histone deacetylase 5 [Source:HGNC Symbol;Acc:HGNC:14068]	17723	-0.0524	-0.17	NO
+12	PSEN2	presenilin 2 [Source:HGNC Symbol;Acc:HGNC:9509]	17156	-0.0453	-0.166	NO
+13	TP53	tumor protein p53 [Source:HGNC Symbol;Acc:HGNC:11998]	16358	-0.036	-0.15	NO
+14	DLL1	delta like canonical Notch ligand 1 [Source:HGNC Symbol;Acc:HGNC:2908]	16236	-0.0348	-0.158	NO
+15	RBPJ	recombination signal binding protein for immunoglobulin kappa J region [Source:HGNC Symbol;Acc:HGNC:5724]	15467	-0.0271	-0.139	NO
+16	DKK4	dickkopf WNT signaling pathway inhibitor 4 [Source:HGNC Symbol;Acc:HGNC:2894]	13965	-0.0126	-0.0888	NO
+17	KAT2A	lysine acetyltransferase 2A [Source:HGNC Symbol;Acc:HGNC:4201]	13835	-0.0112	-0.088	NO
+18	PTCH1	patched 1 [Source:HGNC Symbol;Acc:HGNC:9585]	13825	-0.0111	-0.0916	NO
+19	GNAI1	G protein subunit alpha i1 [Source:HGNC Symbol;Acc:HGNC:4384]	13262	-0.0059	-0.0731	NO
+20	NKD1	NKD inhibitor of WNT signaling pathway 1 [Source:HGNC Symbol;Acc:HGNC:17045]	13217	-0.00549	-0.0733	NO
+21	CTNNB1	catenin beta 1 [Source:HGNC Symbol;Acc:HGNC:2514]	12872	-0.00248	-0.0616	NO
+22	NUMB	NUMB endocytic adaptor protein [Source:NCBI gene;Acc:8650]	12441	0.00145	-0.0453	NO
+23	AXIN2	axin 2 [Source:HGNC Symbol;Acc:HGNC:904]	12203	0.0033	-0.0364	NO
+24	NCOR2	nuclear receptor corepressor 2 [Source:HGNC Symbol;Acc:HGNC:7673]	11998	0.00525	-0.0295	NO
+25	NCSTN	nicastrin [Source:HGNC Symbol;Acc:HGNC:17091]	11163	0.0123	0.00184	NO
+26	PPARD	peroxisome proliferator activated receptor delta [Source:HGNC Symbol;Acc:HGNC:9235]	10949	0.0141	0.00605	NO
+27	FZD8	frizzled class receptor 8 [Source:HGNC Symbol;Acc:HGNC:4046]	10795	0.0155	0.00726	NO
+28	FZD1	frizzled class receptor 1 [Source:HGNC Symbol;Acc:HGNC:4038]	10523	0.0179	0.0127	NO
+29	LEF1	lymphoid enhancer binding factor 1 [Source:HGNC Symbol;Acc:HGNC:6551]	9820	0.025	0.0344	NO
+30	NOTCH1	notch receptor 1 [Source:HGNC Symbol;Acc:HGNC:7881]	9510	0.0281	0.0381	NO
+31	ADAM17	ADAM metallopeptidase domain 17 [Source:HGNC Symbol;Acc:HGNC:195]	9221	0.0312	0.0398	NO
+32	FRAT1	FRAT regulator of WNT signaling pathway 1 [Source:HGNC Symbol;Acc:HGNC:3944]	9193	0.0314	0.0301	NO
+33	SKP2	S-phase kinase associated protein 2 [Source:HGNC Symbol;Acc:HGNC:10901]	8948	0.0336	0.029	NO
+34	TCF7	transcription factor 7 [Source:HGNC Symbol;Acc:HGNC:11639]	6627	0.0616	0.11	NO
+35	HDAC2	histone deacetylase 2 [Source:HGNC Symbol;Acc:HGNC:4853]	5842	0.0743	0.119	NO
+36	MAML1	mastermind like transcriptional coactivator 1 [Source:HGNC Symbol;Acc:HGNC:13632]	5384	0.0825	0.112	NO
+37	CSNK1E	casein kinase 1 epsilon [Source:HGNC Symbol;Acc:HGNC:2453]	5245	0.0854	0.0891	NO
+38	HDAC11	histone deacetylase 11 [Source:HGNC Symbol;Acc:HGNC:19086]	4847	0.0923	0.0755	NO
+39	HEY1	hes related family bHLH transcription factor with YRPW motif 1 [Source:HGNC Symbol;Acc:HGNC:4880]	3834	0.115	0.0839	NO
+40	WNT5B	Wnt family member 5B [Source:HGNC Symbol;Acc:HGNC:16265]	3453	0.125	0.0594	NO
+41	WNT6	Wnt family member 6 [Source:HGNC Symbol;Acc:HGNC:12785]	2319	0.165	0.0614	NO
+42	CUL1	cullin 1 [Source:HGNC Symbol;Acc:HGNC:2551]	606	0.28	0.0725	NO

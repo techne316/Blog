@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Airspace Hugo theme">
+<meta name="author" content="Somrat">
+
+
+
+
+
+
+
+
+
+
+<title>Linear model</title>
+
+<meta name="generator" content="Hugo 0.59.0" />
+
+
+    <link rel="stylesheet" href="https://techne316.github.io/css/owl.carousel.css" />
+    <link rel="stylesheet" href="https://techne316.github.io/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://techne316.github.io/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://techne316.github.io/css/ionicons.min.css" />
+    <link rel="stylesheet" href="https://techne316.github.io/css/animate.css" />
+    <link rel="stylesheet" href="https://techne316.github.io/css/syntax.css" />
+    <link rel="stylesheet" href="https://techne316.github.io/css/venobox.css" />
+<!-- Main Stylesheet -->
+
+<link rel="stylesheet" href="https://techne316.github.io/css/style.min.css" integrity="" media="screen">
+
+
+
+<script src="https://techne316.github.io/js/jquery-1.10.2.min.js"></script>
+<script src="https://techne316.github.io/js/bootstrap.min.js"></script>
+<script src="https://techne316.github.io/js/owl.carousel.min.js"></script>
+<script src="https://techne316.github.io/js/plugins.js"></script>
+<script src="https://techne316.github.io/js/venobox.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://techne316.github.io/js/main.min.js"></script>
+
+<!-- google analitycs -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+
+</head>
+<body>
+
+	
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              </button>
+              <a class="navbar-brand" href="https://techne316.github.io/">
+                <img src="https://techne316.github.io/img/Techne.png" alt="KOREAN Techne homepage Logo" style="width:210px;height:55px;">
+              </a>
+            </div>
+
+            
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="https://techne316.github.io/"> 홈 </a>
+                  </li>
+                  
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      프로젝트
+                    </a>
+                    <div class="dropdown-menu" >
+                      
+                      <a class="dropdown-item" href="/kor/microarray">Microarray</a>
+                      
+                      <a class="dropdown-item" href="/kor/rnaseq">RNAseq</a>
+                      
+                    </div>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/kor/blog">블로그</a>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/kor/service">서비스</a>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/kor/contact">연락처</a>
+                  </li>
+                  
+                  
+                </ul>
+               </div> 
+          </div>
+        </nav> 
+               <div class ="row">
+                 <div class="col-md-10"></div>
+                 <div class="col-md-2">
+                  <ul class="list-inline lang-list">
+                  
+                  <li class="list-inline-item"><a href="https://techne316.github.io/kor/" style="text-align:right;font-size:60%;">KOR</a></li>
+                  
+                  <li class="list-inline-item"><a href="https://techne316.github.io/" style="text-align:right;font-size:60%;">ENG</a></li>
+                  
+                  </ul>
+                 </div> 
+
+      </div>
+    </div>
+  </div>
+
+</header>
+	
+
+	<div class="post">
+	  
+	  <section class="section" style="border: 1px dotted #ddd;">
+	    <div class="container">
+	      <div class="row">
+				<!-- sidebar -->
+<aside class="col-md-3 order-1 order-lg-2">
+  <!-- categories -->
+    <div class = "row">
+      <div class = "col-md-1"></div>
+      <div class = "col-md-8">
+        <h4> LIST </h4>
+        <ul class="list-styled style-circle">
+          <li class="border-bottom border-color"><a href="/kor/categories/basic-r" class="text-color d-block pb-3 mt-3 text-decoration-none">Basic r</a></li>
+          <li class="border-bottom border-color"><a href="/kor/categories/bioinformatics" class="text-color d-block pb-3 mt-3 text-decoration-none">Bioinformatics</a></li>
+        </ul>
+       <br>
+
+      <!-- tags -->
+        <h4>TAGS</h4>
+        <ul class="list-inline tag-list">
+          <li class="list-inline-item"><a class="hover-ripple" href="/kor/tags/affy">Affy</a></li>
+          <li class="list-inline-item"><a class="hover-ripple" href="/kor/tags/basic">Basic</a></li>
+          <li class="list-inline-item"><a class="hover-ripple" href="/kor/tags/limma">Limma</a></li>
+          <li class="list-inline-item"><a class="hover-ripple" href="/kor/tags/r">R</a></li>
+        </ul>
+      </div> 
+    </div> 
+
+</aside>
+<!-- /sidebar -->
+
+	        <div class = "col-md-9">
+	       	  <div class="block">
+							
+	            <h1>Linear model</h1>
+	            <h2>
+	            <div class="post-info-wrapper">
+	              <p class="italic">By <span class="bold">Techne316</span> </p>
+	            </div>
+	        	</h2>
+	            <hr />
+	            <p>
+
+<h1 id="limma-packages">Limma packages</h1>
+
+<h3 id="2-1-linear-models-for-microarray-data">2.1 <strong>Linear models</strong> for microarray data</h3>
+
+<p>To find out differential expressed genes in microarray, limma used gene-wise linear models. Here, I will explian how to design the matrix for linear model.</p>
+
+<p>There are two different types of array.<br />
+1. Two color array<br />
+2. single channel array</p>
+
+<p></p>
+
+<h4 id="1-two-color-array">1) Two color array</h4>
+
+<p>This type of array uses two different dyes during the cDNA process. The expression value of each gene is calculated by log-ratios of dye intensity.So, it is important to label the dye type.
+$$\text{y}_g = log_2(\text{Red intensity}_g)-log_2(\text{Green intensity})_g.$$</p>
+
+<p>Here, I will explain how to build a matrix design with several examples. The way to label the dyes usually use a arrow annotation as in Kerr and Churchill (2001).
+* Each array represents a microarray.
+* The arrow direction is head to the sample which is labelled red(cy5) from the sample which is labelled green(cy3).
+* The symbols A, B and C means samples.
+* To apply linear model this information should be converted into matrix format
+$$X = \tbinom{1}{-1}$$</p>
+
+<p>For example,</p>
+
+<ul>
+<li>$$\color{Red}A\rightarrow\color{ForestGreen}B $$</li>
+<li>one microarray experiment.</li>
+<li>A is lablled with red and B is labelled with green.</li>
+<li>the matrix of this array $\begin{align} X &amp;  =(1) = \text{ y}_g \end{align}$</li>
+</ul>
+
+<ul>
+<li>$$\color{Red}A\leftrightarrows\color{ForestGreen}B $$</li>
+<li>two microarray experiments</li>
+<li><strong>dye-swap experiment</strong></li>
+<li>the matrix of this array $\begin{align} X &amp;  =\tbinom{1}{-1}  =  \binom{\text{y}<em>{g1}}{\text{y}</em>{g2}} \end{align}$
+In this case, the expression level of each genes were calculated by log ratio of red and green. So, dye-swapped sample should be calculated opposite direction.
+Therefore, the above equation could be explain following matrix :$$$\text{A}\rightarrow\text{B} = (1)$$$ $$$\text{A}\leftarrow\text{B} = (-1)$$$ is represented to (1)</li>
+</ul>
+
+<p>In limma packages, Swirl Zebrafish <strong>(A single-Group Experiment)</strong> is a good example case study to explain this concept.</p>
+
+<p>The experiment was carried out using WT and MT model system in zebrafish to find BMP2 gene affects. The author designed experiment that two set of dye-swap experiments were performed (total 4 replicated hybridizaion) and each of microarrys compares RNA from swirl fish(mutant) with RNA form normal fish(wild type). The data used for this case study can be downloaded from <a href="http://bioinf.wehi.edu.au/limmaGUI/DataSets.html">http://bioinf.wehi.edu.au/limmaGUI/DataSets.html</a>.</p>
+
+<table>
+<thead>
+<tr>
+<th>slide number</th>
+<th>File name</th>
+<th>Cy3(green)</th>
+<th>Cy5(red)</th>
+<th>Date</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>81</td>
+<td>swirl.1.spot</td>
+<td>swirl</td>
+<td>wild type</td>
+<td>2001/9/20</td>
+</tr>
+
+<tr>
+<td>82</td>
+<td>swirl.2.spot</td>
+<td>wild type</td>
+<td>swirl</td>
+<td>2001/9/20</td>
+</tr>
+
+<tr>
+<td>93</td>
+<td>swirl.3.spot</td>
+<td>swirl</td>
+<td>wild type</td>
+<td>2001/11/8</td>
+</tr>
+
+<tr>
+<td>94</td>
+<td>swirl.4.spot</td>
+<td>wild type</td>
+<td>swirl</td>
+<td>2001/11/8</td>
+</tr>
+</tbody>
+</table>
+
+<p>In summary,
+* 2 set of dye-swap experiment [81,82] and [93,94]
+* WT(wild type) vs MT(swirl)</p>
+
+<p>This experiemnt design will be converted to
+$$ X = \begin{pmatrix}
+{-1}\{ 1}\{-1}\{ 1}\end{pmatrix}$$</p>
+</p>
+	          </div>
+	          <div></div>
+	        </div>
+	      </div>
+	    </div>
+	  </section>
+	</div>
+	<p class="center-text" style="padding: 30px;">
+	  <a class="btn btn-main" href="https://techne316.github.io//blog">Back to blog</a>
+	</p>
+
+	
+		
+<section id="call-to-action" style="background-image: url('https://techne316.github.io/img/call-to-action-bg.jpg');">
+  
+  <div class="container">
+    <div class="row">
+      <div class ="col-md-3"></div>
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Dream as you wish</h2>
+          <p>FRANCAIS Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
+          
+          <a class="btn btn-main btn-solid-border" href="#" >tell us your story</a>
+          
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+</section>
+
+	
+
+	
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            
+            <li><a href="#">About us</a></li>
+            
+            <li><a href="#">Contact us</a></li>
+            
+            <li><a href="#">How it works</a></li>
+            
+            <li><a href="#">Blog</a></li>
+            
+            <li><a href="#">Terms</a></li>
+            
+          </ul>
+        </div>
+        <p>Copyright &copy; Design &amp; Developed by Techne. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

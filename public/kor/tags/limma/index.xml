@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on KOREAN Techne homepage</title>
+    <link>https://techne316.github.io/kor/tags/limma/</link>
+    <description>Recent content in Blog on KOREAN Techne homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-us</language>
+    
+	<atom:link href="https://techne316.github.io/kor/tags/limma/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linear model</title>
+      <link>https://techne316.github.io/kor/blog/bioinformatics_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/blog/bioinformatics_1/</guid>
+      <description>Limma packages 2.1 Linear models for microarray data To find out differential expressed genes in microarray, limma used gene-wise linear models. Here, I will explian how to design the matrix for linear model.
+There are two different types of array.
+1. Two color array
+2. single channel array
+
+1) Two color array This type of array uses two different dyes during the cDNA process. The expression value of each gene is calculated by log-ratios of dye intensity.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on KOREAN Techne homepage</title>
+    <link>https://techne316.github.io/kor/categories/bioinformatics/</link>
+    <description>Recent content in Blog on KOREAN Techne homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-us</language>
+    
+	<atom:link href="https://techne316.github.io/kor/categories/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>affy</title>
+      <link>https://techne316.github.io/kor/blog/bioinformatics_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/blog/bioinformatics_2/</guid>
+      <description>The affy package designed to analyze and explore data of Affymetrix oligonucleotide arrary probe level data. Also, the package includes several plotting function to evaluate quality of array or probe level intensity.
+ probe oligonucleotides of 25 base pair length used to probe RNA targets. perfect match probes intended to match perfectly the target sequence. PM intensity value read from the perfect matches. mismatch the probes having one base mismatch with the target sequence intended to account for non-speciﬁc binding.</description>
+    </item>
+    
+    <item>
+      <title>affy::Background correction</title>
+      <link>https://techne316.github.io/kor/blog/bioinformatics_affy_bkg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/blog/bioinformatics_affy_bkg/</guid>
+      <description>Background correction ## setting library(affydata) data(Dilution)  Background correction은 microarray에서 signal을 읽는 과정에서 noise를 줄이고, 전체적인 background를 잡아주는 역할을 합니다.
+affy에서 다루고 있는 background correction 방법에는 rma, mas으로 총 2가지 방법과 background correction이 없는 “none”옵션을 제시하고 있습니다.
+
+2.1 none 어떠한 background correction없이 기존의 value 그대로를 이용하여 원본데이터를 사용하고자 할 때 선택할 수 있는 none 옵션입니다.
+bkg1 &amp;lt;- bg.correct.none(Dilution) %&amp;gt;% exprs()  Boxplot
+
+2.2 rma rma()방법은 robust multi-array average의 약자로 Irizarry et al.</description>
+    </item>
+    
+    <item>
+      <title>Linear model</title>
+      <link>https://techne316.github.io/kor/blog/bioinformatics_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techne316.github.io/kor/blog/bioinformatics_1/</guid>
+      <description>Limma packages 2.1 Linear models for microarray data To find out differential expressed genes in microarray, limma used gene-wise linear models. Here, I will explian how to design the matrix for linear model.
+There are two different types of array.
+1. Two color array
+2. single channel array
+
+1) Two color array This type of array uses two different dyes during the cDNA process. The expression value of each gene is calculated by log-ratios of dye intensity.</description>
+    </item>
+    
+  </channel>
+</rss>
