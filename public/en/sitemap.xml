@@ -3,282 +3,282 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://techne316.github.io/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/authors/"
+                href="https://techne316.github.io/kor/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/authors/"
+                href="https://techne316.github.io/authors/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://techne316.github.io/blog/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/blog/"
+                href="https://techne316.github.io/kor/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/blog/"
+                href="https://techne316.github.io/blog/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/basic-r/</loc>
+    <loc>https://techne316.github.io/categories/basic-r/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/categories/basic-r/"
+                href="https://techne316.github.io/kor/categories/basic-r/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/basic-r/"
+                href="https://techne316.github.io/categories/basic-r/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/bioinformatics/</loc>
+    <loc>https://techne316.github.io/categories/bioinformatics/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/categories/bioinformatics/"
+                href="https://techne316.github.io/kor/categories/bioinformatics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/bioinformatics/"
+                href="https://techne316.github.io/categories/bioinformatics/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/affy/</loc>
+    <loc>https://techne316.github.io/tags/affy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/tags/affy/"
+                href="https://techne316.github.io/kor/tags/affy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/affy/"
+                href="https://techne316.github.io/tags/affy/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/basic/</loc>
+    <loc>https://techne316.github.io/tags/basic/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/tags/basic/"
+                href="https://techne316.github.io/kor/tags/basic/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/basic/"
+                href="https://techne316.github.io/tags/basic/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/limma/</loc>
+    <loc>https://techne316.github.io/tags/limma/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/tags/limma/"
+                href="https://techne316.github.io/kor/tags/limma/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/limma/"
+                href="https://techne316.github.io/tags/limma/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/r/</loc>
+    <loc>https://techne316.github.io/tags/r/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/tags/r/"
+                href="https://techne316.github.io/kor/tags/r/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/r/"
+                href="https://techne316.github.io/tags/r/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://techne316.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/categories/"
+                href="https://techne316.github.io/kor/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://techne316.github.io/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://techne316.github.io/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/contact/"
+                href="https://techne316.github.io/kor/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/contact/"
+                href="https://techne316.github.io/contact/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/basic_r_1.2/</loc>
+    <loc>https://techne316.github.io/blog/basic_r_1.2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/blog/basic_r_1.2/"
+                href="https://techne316.github.io/kor/blog/basic_r_1.2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/blog/basic_r_1.2/"
+                href="https://techne316.github.io/blog/basic_r_1.2/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/basic_r_1.3/</loc>
+    <loc>https://techne316.github.io/blog/basic_r_1.3/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/blog/basic_r_1.3/"
+                href="https://techne316.github.io/kor/blog/basic_r_1.3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/blog/basic_r_1.3/"
+                href="https://techne316.github.io/blog/basic_r_1.3/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/basic_r_1.1/</loc>
+    <loc>https://techne316.github.io/blog/basic_r_1.1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/blog/basic_r_1.1/"
+                href="https://techne316.github.io/kor/blog/basic_r_1.1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/blog/basic_r_1.1/"
+                href="https://techne316.github.io/blog/basic_r_1.1/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/microarray/</loc>
+    <loc>https://techne316.github.io/microarray/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/microarray/"
+                href="https://techne316.github.io/kor/microarray/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/microarray/"
+                href="https://techne316.github.io/microarray/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/work/</loc>
+    <loc>https://techne316.github.io/work/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/work/"
+                href="https://techne316.github.io/kor/work/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/work/"
+                href="https://techne316.github.io/work/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/rnaseq/</loc>
+    <loc>https://techne316.github.io/rnaseq/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/rnaseq/"
+                href="https://techne316.github.io/kor/rnaseq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/rnaseq/"
+                href="https://techne316.github.io/rnaseq/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://techne316.github.io/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/series/"
+                href="https://techne316.github.io/kor/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/series/"
+                href="https://techne316.github.io/series/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/service/</loc>
+    <loc>https://techne316.github.io/service/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/service/"
+                href="https://techne316.github.io/kor/service/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/service/"
+                href="https://techne316.github.io/service/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://techne316.github.io/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/tags/"
+                href="https://techne316.github.io/kor/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://techne316.github.io/tags/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://techne316.github.io/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="kor"
-                href="http://localhost:1313/kor/"
+                href="https://techne316.github.io/kor/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://techne316.github.io/"
                 />
   </url>
   
