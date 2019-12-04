@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://techne316.github.io/"
 languageCode = "en-us"
 title = "Techne316 homepage"
 theme = "airspace-hugo"
