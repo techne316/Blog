@@ -1,0 +1,27 @@
+Run of GSEA on  123456
+input.ds = /Users/asterlim/Techne/PJ1507/GSEA/PJ1507_exprs.gct
+input.cls = /Users/asterlim/Techne/PJ1507/GSEA/PJ1507_group.cls
+gene.ann = 
+gs.db = /Users/asterlim/Desktop/ARRAY_TEST/GSEA/msigdb_v7.0_GMTs/h.all.v7.0.symbols.gmt
+gs.ann = 
+input.chip = /Users/asterlim/Desktop/ARRAY_TEST/GSEA/msigdb_v7.0_Chip/Human_AFFY_HG_U133_MSigDB.v7.0.chip
+collapse.mode = max
+output.directory = /Users/asterlim/Techne/PJ1507/GSEA/results/
+doc.string =  PJ1507
+reshuffling.type = gene.labels
+nperm = 1000
+weighted.score.type = 1
+nom.p.val.threshold = -1
+fwer.p.val.threshold = -1
+fdr.q.val.threshold = 0.25
+topgs = 20
+adjust.FDR.q.val = FALSE
+gs.size.threshold.min = 15
+gs.size.threshold.max = 500
+reverse.sign = FALSE
+preproc.type = 0
+random.seed = 123456
+perm.type = 0
+rank.metric =  S2N
+fraction = 1
+replace = FALSE
